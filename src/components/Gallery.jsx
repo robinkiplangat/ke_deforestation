@@ -1,9 +1,19 @@
 import React from 'react'
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import Iframe from 'react-iframe'
+
    
 const Gallery = () => ( 
-    <div className="slider">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div> 
+        <Iframe src="https://public.flourish.studio/visualisation/345596/"
+            width="100%"
+            height="800px"
+            display="initial"
+            position="relative"
+            scrolling='no'
+        />
     </div>
-        );
+
+);
+
 export default Gallery;
