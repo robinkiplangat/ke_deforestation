@@ -5,7 +5,7 @@ import Iframe from 'react-iframe'
    
 const Gallery = () => ( 
     <div> 
-        <Iframe src="https://public.flourish.studio/visualisation/345596/"
+        <Iframe src="https://public.flourish.studio/visualisation/345596/embed?auto=1"
             width="100%"
             height="800px"
             display="initial"
