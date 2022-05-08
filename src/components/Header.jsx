@@ -1,29 +1,18 @@
-import React from "react";
-import { Divider, Stack, Text } from "@chakra-ui/react";
-import { FaBars } from "react-icons/fa";
-const Header = ({ onOpen }) => {
-  return (
-    <Stack
-      direction="row"
-      align="center"
-      padding="1rem"
-      position={"sticky"}
-      top={0}
-      left={0}
-      color="whitesmoke"
-      bg={"green.800"}
-    >
-      <FaBars
-        color="whitesmoke"
-        cursor={"pointer"}
-        fontSize="2rem"
-        onClick={onOpen}
-      />
-      <Text fontSize={"2xl"} paddingInline={"1rem"} fontWeight={"900"}>
-        Deforestation KE
-      </Text>
-    </Stack>
-  );
-};
+import React from 'react'
+
+const Header = () => (
+    <header className="bg-green sans-serif center pa4 pb2 pt5-ns ph7-l">
+        <h1
+            className="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+            <span
+                className="bg-black-90 lh-copy center white pa1 tracked-tight">
+                &nbsp; Forest Slider &nbsp;
+        </span>
+        </h1>
+        <h4 className="f3 fw1 georgia i">
+            Kenya Forests Deforestation Over Time
+      </h4>
+    </header>
+)
 
 export default Header;
